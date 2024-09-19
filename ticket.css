@@ -1,0 +1,349 @@
+#letter
+{
+    grid-area: letter;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+
+    
+}
+#letter div
+{
+    border:1px solid transparent;
+   
+}
+#Orchestra1
+{
+    grid-area: Orchestra1;
+ 
+    display:grid;
+    grid-template-areas: 'div div div div div div div div';
+
+}
+#Orchestra2
+{
+    grid-area: Orchestra2;
+    
+    display:grid;
+    grid-template-areas: 'div div div div div div div div div div div div div div div  div';
+
+}
+#Orchestra3
+{
+    grid-area: Orchestra3;
+   
+    display:grid;
+    grid-template-areas: 'div div div div div div div div';
+
+}
+
+#Orchestra1 div, #Orchestra2 div, #Orchestra3 div
+{
+    background-color: #ddeaf6;
+}
+
+
+
+#Mezzanine1
+{
+    grid-area: Mezzanine1;
+    
+    display:grid;
+    grid-template-areas: 'div div div div div div div div';
+    
+}
+#Mezzanine2
+{
+    grid-area: Mezzanine2;
+   
+    display:grid;
+    grid-template-areas: 'div div div div div div div div div div div div div div div  div';
+ 
+}
+#Mezzanine3
+{
+    grid-area: Mezzanine3;
+    
+    display:grid;
+    grid-template-areas: 'div div div div div div div div';
+ 
+}
+
+#Mezzanine1 div, #Mezzanine2 div, #Mezzanine3 div
+{
+    background-color: #f9e3d4;
+}
+
+
+
+#Balcony1
+{
+    grid-area: Balcony1;
+   
+    display:grid;
+    grid-template-areas: 'div div div div div div div div';
+ 
+ 
+ 
+   
+
+}
+#Balcony2
+{
+    grid-area: Balcony2;
+   
+    display:grid;
+    grid-template-areas: 'div div div div div div div div div div div div div div div  div';
+
+    
+}
+#Balcony3
+{
+    grid-area: Balcony3;
+    
+    display:grid;
+    grid-template-areas: 'div div div div div div div div';
+ 
+
+ 
+    
+}
+#Balcony1 div, #Balcony2 div, #Balcony3 div
+{
+    background-color: #cafdcc;
+}
+
+#Box1
+{
+    grid-area: Box1;
+   
+    display:grid;
+    grid-template-areas: 
+    'div div'
+    'div div'
+    'div div'
+    'div div'
+    '. .'
+    '. .'
+    '. .'
+    '. .';
+
+}
+#Box2
+{
+    grid-area: Box2;
+  
+    display:grid;
+    grid-template-areas: 
+    'div div'
+    'div div'
+    'div div'
+    'div div'
+    '. .'
+    '. .'
+    '. .'
+    '. .';
+  
+
+
+
+}
+#Box1 div, #Box2 div
+{
+    background-color: #fee599;
+}
+
+
+
+#Stage
+{
+    grid-area: Stage;
+   
+    border-radius: 30px;
+    border:3px solid white;
+    text-align: center;
+    height:50px;
+
+}
+/* #empty
+{
+    grid-area: empty;
+    background-color: blueviolet;
+} */
+
+/* div
+{
+    color: black;
+} */
+
+div:hover  
+{
+    transform: scale(3);
+    color: black;
+   
+}
+#SeatGrid
+{
+
+    display:grid;
+    grid-template-areas:
+    'Stage Stage Stage Stage Stage Stage '
+    'Box1 letter  Orchestra1 Orchestra2 Orchestra3 Box2'
+    '. letter Mezzanine1 Mezzanine2 Mezzanine3 .'
+    '. letter Balcony1 Balcony2 Balcony3 .';
+    
+}
+aside
+{
+    display: flex;
+    flex-direction: column;
+    color:black;
+}
+#one
+{
+    background-color: #ddeaf6;
+    width:100px;
+    height:30px;
+    
+}
+#two
+{
+    background-color: #f9e3d4;
+    width:100px;
+    height:30px;
+}
+#three
+{
+    background-color: #cafdcc;
+    width:100px;
+    height:30px;
+}
+#four
+{
+    background-color: #fee599;
+    width:100px;
+    height:30px;
+}
+
+
+
+
+div
+{
+    border-radius: 2px;
+    border:1px solid black;
+}
+
+
+@media(min-width:300px)
+{
+    div
+    {
+        height:7px;
+        width:7px;
+    
+      
+    }
+    #SeatGrid
+    {
+        gap:6px;
+        height:40vh;
+    }
+    #letter div 
+    {
+        font-size: 8px;
+    }
+}
+@media(min-width:500px)
+{
+    div
+    {
+        height:9px;
+        width:9px;
+    
+    }
+    #SeatGrid
+    {
+        gap:6px;
+        height:55vh;
+    }
+  
+}
+@media(min-width:560px)
+{
+    div
+    {
+        height:11px;
+        width:11px;
+    
+    }
+    #letter div 
+    {
+        font-size: 11px;
+    }
+}
+@media(min-width:700px)
+{
+    div
+    {
+        height:15px;
+        width:15px;
+    
+    
+    }
+    #SeatGrid
+    {
+        gap:6px;
+        height:75vh;
+    }
+    #letter div 
+    {
+        font-size: 14px;
+    }
+   
+}
+@media(min-width:800px)
+{
+    div
+    {
+        height:20px;
+        width:16px;
+
+    }
+    #letter div 
+    {
+        font-size: 20px;
+    }
+
+} 
+@media(min-width:1000px)
+{
+    div
+    {
+        height:22px;
+        width:22px;
+    
+
+    }
+    #SeatGrid
+    {
+        gap:6px;
+        height:100vh;
+        gap:10px;
+    }
+    #letter div 
+    {
+        font-size: 24px;
+    }
+   
+}
+@media(min-width:1120px)
+{
+    div
+    {
+        height:25px;
+        width:26px;
+
+    }
+  
+}

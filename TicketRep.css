@@ -1,0 +1,61 @@
+
+
+table
+{
+    border:none;
+    width:100%;
+}
+
+tr
+{
+    height: 30px;
+}
+
+
+tr:nth-child(2n)
+{
+    background-color:#9a8c98;
+    color:#22223b;
+}
+tr:nth-child(2n+1)
+{
+    background-color:#4a4e69;
+    color:#22223b;
+}
+
+tr:hover
+{
+    background-color:#f2e9e4;
+}
+@media(min-width:425px)
+{
+    table td
+    {
+        font-size: 11px;
+       
+    }
+   
+}
+@media(min-width:600px)
+{
+    table td
+    {
+        font-size: 16px;
+        
+    }
+    main
+    {
+        margin-left:2%;
+        margin-right:2%;
+
+    }  
+}
+@media(min-width:900px)
+{
+    table td
+    {
+        font-size: 20px;
+     
+    }
+  
+}

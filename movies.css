@@ -1,0 +1,70 @@
+
+.welcome
+{
+    grid-area: welcome;
+
+}
+.login
+{
+    grid-area: login;
+}
+
+#Movie
+{
+    width:100%;
+}
+
+.movie
+{
+    grid-area: movie;
+    margin-top: 20px;
+   
+    /* height:20vh; */
+}
+
+.mmain
+{
+    display: flex;
+    flex-direction: column;
+    grid-area: main;
+   
+}
+@media(min-width:300px)
+{
+    main
+    {
+        display:grid;
+
+        grid-template-areas: 'main'
+                            'movie'  ;
+        
+    }
+    #fgf
+    {
+        width:98%;
+       
+    }
+}
+
+@media(min-width:900px)
+{
+    main
+    {
+        display:grid;
+    
+        grid-template-areas: 'main movie';
+                             
+    }
+    .movie
+    {
+        margin-left:30px;
+        width:60vh;
+        
+
+    }
+    #fgf
+    {
+        width:50vw;
+    }
+  
+}

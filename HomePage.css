@@ -1,0 +1,294 @@
+body
+{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    /* background: url(Picture1.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color:#22223b; /*rgba(28, 4, 56, 0.651);/*/
+
+    margin-left: 2%;
+    margin-right: 2%;
+   
+  
+
+    color:#c9ada7;/*brown;*/
+}
+.main
+{
+    display: grid;
+    grid-template-areas: 'welcome  login';
+    height:70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 7%;
+ 
+}
+#fff
+{
+    display: grid;
+    grid-template-areas: 'welcome  login';
+    height:70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+#fff .welcome, #fff .login
+{
+    display:flex;
+    flex-direction: column;
+    padding-top: 25px;
+    padding-left: 20px;
+    gap:10px;
+
+    align-items:flex-start;
+    justify-content: center;
+
+}
+
+.welcome
+{
+    grid-area: welcome;
+    background-color: #4a4e69; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+span
+{
+    font-family:'Monotype Corsiva';
+    
+}
+.login
+{
+    grid-area: login;
+    background-color: #9a8c98;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    gap:20px;
+    text-align: center;
+    color:#f2e9e4;
+   
+}
+
+.login a
+{
+    color:#f2e9e4;
+}
+a
+{
+    text-decoration: none;
+    font-size: 16px;
+    color:#c9ada7;
+
+}
+form #submit
+{
+    width:100px;
+    background-color: rgba(194, 124, 39, 0.26);
+    color:#f2e9e4;
+   
+
+    border: none;
+    height: 30px;
+   
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:22px;
+}
+
+form input,form select
+{
+    width:200px;
+    height: 30px;
+    border: none;
+    background-color:rgba(255, 255, 255, 0.267);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.445);
+    color:black;
+    font-family:'Times New Roman', Times, serif
+}
+
+.fas
+{
+    font-size:26px;
+    
+    Margin-left:80%;
+
+}
+
+
+@media(min-width:300px)
+{
+    body
+    {
+        margin-top:10px;
+        margin-left:1%;
+        margin-right: 1%;
+    
+    }
+    main 
+    {
+        margin-top: 35px;
+        
+    }
+    .welcome
+    {
+        font-size:18px ;
+        padding: 6px;
+    }
+   
+    span
+    {
+        font-size: 50px;
+    }
+    .login
+    {
+        font-size: 18px;
+        padding: 9px;
+    }
+   
+    form #submit
+    {
+        margin-left: 100px;
+    }
+   
+ 
+    #fff .welcome, #fff .login
+    {
+       font-size: 16px;
+       text-align: left;
+       padding:0;
+       padding-left:5px;
+      
+    }
+    /*select list*/
+    #fff select 
+    {
+        background-color: rgba(255, 255, 255, 0.267);
+        width:200px;
+        height:30px;
+    }
+   
+
+}
+@media(min-width:600px)
+{
+    body
+    {
+        margin-top: 10px;
+        margin-bottom: 25px;
+        margin-left:5%;
+        margin-right: 5%;
+    }
+    main 
+    {
+        margin-top: 35px;
+    }
+    .main
+    {
+        margin-top:4.5%;
+    }
+    .welcome
+    {
+        font-size: 28px;
+    }
+   
+    span
+    {
+        font-size: 84px;
+    }
+
+    .login
+    {
+        font-size: 22px;
+    }
+    form #submit
+    {
+        margin-left: 60px;
+    }
+
+    #fff .welcome, #fff .login
+    {
+       font-size: 20px;
+       padding-left: 15px;
+
+    }
+   
+}
+@media(min-width:900px)
+{
+ 
+    .main
+    {
+        height: 70vh;
+        margin-top:2.5%;
+    }
+    .welcome
+    {
+        font-size: 32px;
+    }
+   
+    span
+    {
+        font-size: 100px;
+    }
+    .login
+    {
+        font-size: 28px;
+    }
+    .login form input
+    {
+        width: 300px;
+    }
+
+    .fas
+    {
+        margin-left: 90%;
+    }
+
+    #fff input 
+    {
+        width: 300px;
+    }
+    #fff .welcome, #fff .login
+    {
+       font-size: 24px;
+
+    }
+    #fff select
+    {
+        background-color: rgba(255, 255, 255, 0.267);
+        width:300px;
+    }
+    header
+    {
+        margin-left:2%;
+    }
+
+}
+
+footer aside
+{
+    display: flex;
+    flex-direction: row;
+    gap:18px;
+    justify-content:center
+}
+footer aside .fa
+{   
+    text-decoration: none;
+    margin-top: 15px;
+    color:#c9ada7;
+    text-align: center;
+    font-size: 24px;
+   
+    
+}

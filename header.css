@@ -1,0 +1,70 @@
+      
+#searchedMovie
+{
+    margin-left: 25%;
+    
+
+}
+@media(min-width:300px)
+{
+    header ul li a
+    {
+        font-size: 10px;
+       
+    }
+    #Search, #searchedMovie
+    {
+        width:60px;
+    }
+  
+}
+@media(min-width:470px)
+{
+    header ul li a
+    {
+        font-size: 12px;
+       
+    }
+    #Search, #searchedMovie
+    {
+        width:120px;
+    }
+}
+@media(min-width:615px)
+{
+    header ul li a
+    {
+        font-size: 16px;
+    }
+    #Search, #searchedMovie
+    {
+        width:140px;
+    }
+   
+
+}
+@media(min-width:750px)
+{
+    header ul li a
+    {
+        font-size: 16px;
+    }
+    #Search, #searchedMovie
+    {
+        width:250px;
+    }
+}
+@media(min-width:900px)
+{
+    header ul li a
+    {
+        font-size: 18px;
+    }
+    #Search, #searchedMovie
+    {
+        width:300px;
+    }
+   
+  
+
+}

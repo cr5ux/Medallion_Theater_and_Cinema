@@ -1,0 +1,197 @@
+
+#fff
+{
+    display: grid;
+    grid-template-areas: 'welcome  login';
+    height:70vh;
+
+}
+#fff .welcome, #fff .login
+{
+    /* display:inline; */
+    padding-top: 25px;
+
+}
+.welcome, .login
+{
+    font-size:18px;
+}
+#fff .login #m
+{
+    display: flex;
+    flex-direction: row;
+
+    gap: 10px;
+}
+#fff .login #d, #fff .login #e
+{
+    display: flex;
+    flex-direction:column;
+    gap:5px;
+}
+
+header
+{
+    background-color:#4a4e69;
+    border-top-right-radius: 80px;
+    border-top-left-radius: 80px;
+
+    height:50px;
+   width:90%;
+   
+
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 25px;
+   
+   
+}
+
+header ul
+{
+    display: flex;
+    flex-direction: row;
+    gap:15px;
+    justify-content:center;
+    padding-left: 10px;
+    /* padding-top:95px; */
+  
+}
+header ul li
+{
+    list-style-type: none;
+    
+}
+header ul li a
+{
+    color:#c9ada7;
+    text-decoration: none;
+ 
+ 
+}
+header nav
+{
+    display:flex;
+    flex-direction: row;
+
+}
+#Plist
+{
+    position: relative;
+   
+    justify-content: space-between;
+    align-items: center;
+}
+#Plist #list
+{
+    position: absolute;
+    width:150px;
+    top:28px;
+    left:0px;
+    visibility: hidden;
+ 
+
+
+}
+#Plist:hover #list
+{   
+    display: flex;
+    flex-direction:column;
+    visibility:visible; 
+    
+}
+header:hover ul li a
+{
+    color:#f2e9e4;
+}
+
+#fff #perfTime, #fff #active
+{
+    border:2px solid white;
+    height:20px;
+    width:60px;
+
+}
+
+@media(min-width:200px)
+{
+    header
+    {
+        width:150%;
+    }
+    header ul li a 
+    {
+        font-size:14px;
+    }
+}
+@media(min-width:300px)
+{
+    header
+    {
+        width:120%;
+    }
+    header ul li a 
+    {
+        font-size:14px;
+    }
+}
+@media(min-width:320px)
+{
+    header
+    {
+        width:110%;
+    }
+    header ul li a 
+    {
+        font-size:14px;
+    }
+}
+@media(min-width:360px)
+{
+    header
+    {
+        width:100%;
+    }
+    header ul li a 
+    {
+        font-size:14px;
+    }
+}
+@media(min-width:400px)
+{
+    header
+    {
+        width:91%;
+    }
+    header ul li a 
+    {
+        font-size:14px;
+    }
+}
+@media(min-width:600px)
+{
+    header
+    {
+        width:92%;
+    }
+    header ul li a 
+    {
+        font-size:16px;
+    }
+}
+@media(min-width:900px)
+{
+    header
+    {
+        width:91%;
+    }
+    header ul li a 
+    {
+        font-size:18px;
+    }
+
+} 
