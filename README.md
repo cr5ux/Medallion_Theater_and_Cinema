@@ -31,4 +31,9 @@
     
     5. Income Calculation
         - The Owner of the film  can view and check the amount of money  profitted from the movie  streamed, which calculated based on streams
+
+## Tools
+    1. HTML, CSS and JS
+    2. PHP and Ajax
+    3. MySQL
     
