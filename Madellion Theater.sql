@@ -1,6 +1,6 @@
-create database madellionTheatherCS343;
+create database madellionTheather;
 
-use madellionTheatherCS343;
+use madellionTheather;
 
 create table Patron
 (
