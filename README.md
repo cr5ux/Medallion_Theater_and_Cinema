@@ -1,4 +1,4 @@
-# Medallion Cinema Web
+# Medallion Theater and Cinema
 
     A Web application that can be used for Theater Ticket ticketing and Online  Movie streaming.
 
